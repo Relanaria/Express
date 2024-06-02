@@ -1,9 +1,8 @@
 const Router = require('express');
 const { createControler } = require('../controlers/movieContr');
 const { aboutControler } = require('../controlers/aboutContr');
-const { searchControler } = require('../controlers/searchContr');
 const { notFoundController } = require('../controlers/404Contr');
-const { detailsController, homeController } = require('../controlers/catalogControler');
+const { detailsController, homeController, searchControler } = require('../controlers/catalogControler');
 
 const router = Router();
 
